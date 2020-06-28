@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Device Control</string>
+<!--    <string name="app_name">Speech To Text</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="about_app">About App</string>
+    <string name="exit">Exit</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password (At Least 8 characters)</string>
+    <string name="register">Register</string>
+    <string name="t_n">Tên:</string>
+    <string name="tr_ng_th_i">Trạng thái:</string>
+    <string name="ang_c_p_nh_t">Đang cập nhật</string>
+    <string name="on_off">ON/ OFF</string>
+    <string name="todo">TODO</string>
+    <string name="comfirm_password">Comfirm Password</string>
+    <string name="ng_xu_t">Đăng xuất</string>
+    <string name="t_i_kho_n">Tài khoản:</string>
+</resources>

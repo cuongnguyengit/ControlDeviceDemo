@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:text="Ip Server: "
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+        <EditText
+            android:id="@+id/edit_ip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="http://192.168.1.119"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:digits="0123456789.htp:/"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdateIp"
+        android:text="UPDATE IP SERVER"
+        android:background="#12FF34"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#D7E2B8"
+        android:onClick="register"
+        android:text="Register"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#D7E2B8"
+        android:onClick="login"
+        android:text="Login"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Connection Status."
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+</LinearLayout>

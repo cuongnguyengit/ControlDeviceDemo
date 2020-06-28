@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LL"
+    android:layout_width="match_parent"
+    android:layout_height="60sp"
+    android:background="@drawable/images">
+    <ImageView
+        android:src="@mipmap/icon_led"
+        android:id="@+id/imageView_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_alignParentStart="true"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="@string/todo" />
+
+    <TableLayout
+        android:layout_toEndOf="@+id/imageView_flag"
+        android:layout_toStartOf="@+id/btnOnOff"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_n"
+                android:textStyle="normal|bold"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtDescriptor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ang_c_p_nh_t"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_column="1"
+                android:textStyle="italic|normal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_column="0"
+                android:text="@string/tr_ng_th_i"
+                android:textSize="20sp"
+                android:textStyle="italic|normal" />
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_column="1"
+                android:text="@string/ang_c_p_nh_t"
+                android:layout_gravity="bottom|start"
+                android:textSize="20sp"
+                android:textStyle="italic|normal" />
+        </TableRow>
+
+
+    </TableLayout>
+    <Button
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnOnOff"
+        android:text="@string/on_off"
+        android:background="#000055"
+        android:textColor="#FFFFFF"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        />
+
+</RelativeLayout>
