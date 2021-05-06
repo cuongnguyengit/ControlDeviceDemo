@@ -5,7 +5,7 @@
 Flask == 1.0.2
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\main.py: 6
-Flask_Cors == 3.0.8
+Flask_Cors == 3.0.9
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\__init__.py: 3
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\main.py: 5
