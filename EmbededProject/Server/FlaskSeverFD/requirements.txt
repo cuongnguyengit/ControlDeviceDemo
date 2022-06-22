@@ -25,7 +25,7 @@ SpeechRecognition == 3.8.1
 Werkzeug == 0.15.1
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\test.py: 2
-numpy == 1.18.2
+numpy == 1.22.0
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\test.py: 3
 scipy == 1.4.1
