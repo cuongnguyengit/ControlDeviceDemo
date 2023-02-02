@@ -22,7 +22,7 @@ SoundFile == 0.10.3.post1
 SpeechRecognition == 3.8.1
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\main.py: 3
-Werkzeug == 0.15.1
+Werkzeug == 0.15.5
 
 # C:\Users\cuong.nm164980\Downloads\FlaskSeverFD\test.py: 2
 numpy == 1.18.2
